@@ -1,0 +1,109 @@
+HTML {width: 100%; height: 100%; overflow: hidden; margin: 0; padding: 0;}
+BODY {width: 100%; height: 100%; overflow: hidden; margin: 0; padding: 0;}
+TD {font-family: Verdana, Arial, Helvetica; height: 14px;}
+
+.AC {text-align: center;}
+.AR {text-align: right;}
+.B {font-weight: bold;}
+.Vol {font-size: 8pt; width: 15%;}
+.VolCol {width: 15%;}
+.Price {width: 30%;}
+TD {height: 17px;}
+
+#SymbolName {text-align: center; font-weight: bold;}
+
+.PA {font-size: 8pt;}
+.PB {font-size: 10pt;}
+.PC {font-size: 8pt;}
+
+.HeaderRow {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #404040;
+	border-bottom: solid 1px #808080;
+}
+.TotalRow {
+	border-top: solid 1px #808080;
+}
+
+#Container {width: 300px; overflow: hidden; background: white; font-size: 8pt;}
+
+#Spread {font-size: 8pt; padding: 3px 5px 3px 5px; border: solid 1px #C0C0C0; border-radius: 4px; width: 25px; display: inline-block; min-height: 12px;}
+#cmbSymbol {font-size: 8pt;}
+#cmbSymbol2 {font-size: 8pt;}
+
+.VWAPPrice {width: 25%;}
+.VWAPLabel {width: 25%;}
+.VWAPSpread {width: 25%;}
+
+.Col_Instrument {
+	width: 27%;
+}
+
+.Col_Bid {
+	text-align: center;
+	width: 27%;
+}
+
+.Col_Offer {
+	text-align: center;
+	width: 27%;
+}
+
+.Col_Spread {
+	text-align: center;
+	width: 19%;
+}
+
+.lnkTopOfBook {font-size: 10pt; color: #000040; cursor: pointer;}
+.lnkTopOfBook:hover {text-decoration: underline;}
+
+.lnkToSymbol {cursor: pointer;}
+.lnkToSymbol:hover {text-decoration: underline;}
+
+
+/* Background colour and border for odd-numbered rows in the table; background not used in this widget */
+.StripeRow {
+	border-bottom: solid 1px #E0E0E0;
+}
+
+/* Background colour and border for even-numbered rows in the table; background not used in this widget */
+.StripeRow2 {
+	border-bottom: solid 1px #E0E0E0;
+}
+
+
+/* Defines a price element; adds padding so that a highlighted price has space around the text */
+.Price {padding: 2px 4px 2px 4px;}
+
+/* Class which is used, temporarily, to mark a price which has risen */
+.PriceRise .Price {
+	background: #69B30E;
+	border-radius: 3px;
+	color: white;
+}
+
+/* Class which is used, temporarily, to mark a price which has fallen */
+.PriceFall .Price {
+	background: #B42822;
+	border-radius: 3px;
+	color: white;
+}
+
+/* Style used for diffentiating the final, "decipip" digit of a price */
+.PriceSub {
+	vertical-align: super;
+	font-size: 7pt;
+}
+
+/* Size and positioning of the icon for each instrument */
+.SymbolIcon {
+	width: 14px;
+	height: 14px;
+	border: 0;
+	padding-right: 3px;
+	vertical-align: absmiddle;
+}
+
+/* Style used when writing in the "Closed" text */
+.Closed {color: #808080;}

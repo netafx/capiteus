@@ -1,0 +1,32 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_scmsg	2147483647~rv=8~id=d0266011d1491076e59151b00dae4a6d~rn=
+home.saxo	TRUE	/	FALSE	1999999999	AKA_A2	A
+.zdassets.com	TRUE	/	FALSE	1999999999	__cfduid	d6f7bcb2047f67e45c0512a41157c49191583214820
+static.zdassets.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_en	2147483647~rv=24~id=16b3f366bbe5d195af7dc78bcf56ac2b~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_saxoas	2147483647~rv=51~id=0ed0b5f6e3e2512292547af08ebaafed~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_scmhk	2147483647~rv=94~id=97b172ffcfca51b033d2543b47054e4c~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	sto-id-%3FENT_DMZ_1%3FV4_ENT_DMZ_HOME.SAXO	BJBECAAK
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_swiss	2147483647~rv=86~id=f26126ed213d08a66fe35bde71867cd1~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_scmau	2147483647~rv=19~id=5fc36f8ad2cf7276119248b85918e3c6~rn=
+ads.linkedin.com	TRUE	/	FALSE	1999999999	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=SGST05:g=8:u=1:i=1583223793:t=1583310193:s=AQFzYd5hMplSkUc4hkwzCCmm_98E6RSv"
+px.ads.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.home.saxo	TRUE	/	FALSE	1999999999	service#lang	en
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_bgsaxo	2147483647~rv=69~id=e2392584e8d9de0ba4dd2934f2ff5767~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_china	2147483647~rv=3~id=6791367502564bba1b66b1dfe3f73646~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	4qo3git1e5umup1hj3crvew4
+www.home.saxo	TRUE	/	FALSE	1999999999	SC_ANALYTICS_GLOBAL_COOKIE	627bcc7a1d5842caaad159151ba3b9b1|False
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_french	2147483647~rv=74~id=1125fffe437529d959406f3836f63770~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_nordic	2147483647~rv=24~id=16b3f366bbe5d195af7dc78bcf56ac2b~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	privatesaxo#lang	en-SG
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_scmgb	2147483647~rv=35~id=c8e6e75895b5cae88ba63d520cd6677a~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	akaas_as_japan	2147483647~rv=17~id=6bb9aefb7b8462631dfb05ab232fb784~rn=
+www.home.saxo	TRUE	/	FALSE	1999999999	SameSite	None
+www.home.saxo	TRUE	/	FALSE	1999999999	sto-id-%3FENT_DMZ_1%3FV4_ENT_DMZ_DCF_80	BCBECAAK
+www.home.saxo	TRUE	/	FALSE	1999999999	iit_ak_geo	IN
+www.home.saxo	TRUE	/	FALSE	1999999999	iit_ak_netprops	UNKNOWN,5000
+www.home.saxo	TRUE	/	FALSE	1999999999	iit_ak_devicetype	Desktop
+www.home.saxo	TRUE	/	FALSE	1999999999	iit_ak_isaffiliate	False
+

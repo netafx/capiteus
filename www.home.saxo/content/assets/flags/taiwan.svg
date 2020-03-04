@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{mask:url(#taiwan-flag-mask);}.cls-3{fill:#fe3f55;}.cls-4{fill:#3058d0;}.cls-5{fill:#f3f3f3;}</style>
+        <mask id="taiwan-flag-mask" width="70" height="47.36" x="0" y="0" maskUnits="userSpaceOnUse">
+            <path d="M0 0h70v47.36H0z" class="cls-1" />
+        </mask>
+    </defs>
+    <g class="cls-2">
+        <g>
+            <path d="M0 0h70v47H0z" class="cls-3" />
+            <path d="M0 0h31.91v24.71H0z" class="cls-4" />
+            <circle cx="16.47" cy="12.35" r="4.12" class="cls-5" />
+            <path d="M16.47 3.71l-1.34 3.5h2.68l-1.34-3.5zM12.15 4.86l.59 3.71 2.32-1.34-2.91-2.37zM8.98 8.03l2.36 2.91 1.34-2.32-3.7-.59zM7.82 12.35l3.5 1.34v-2.67l-3.5 1.33zM8.98 16.68l3.7-.59-1.34-2.32-2.36 2.91zM12.15 19.84l2.91-2.36-2.32-1.34-.59 3.7zM16.47 21l1.34-3.5h-2.68l1.34 3.5zM20.79 19.84l-.59-3.7-2.32 1.34 2.91 2.36zM23.96 16.68l-2.36-2.91-1.34 2.32 3.7.59zM25.12 12.35l-3.5-1.33v2.67l3.5-1.34zM23.96 8.03l-3.7.59 1.34 2.32 2.36-2.91zM20.79 4.86l-2.91 2.37 2.32 1.34.59-3.71z" class="cls-5" />
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <style>.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FAFFFF;} .st1{fill:#4286F5;} .st2{fill:#FFFFFF;}</style>
+    <g>
+        <path d="M0 .5h70v46H0z" class="st0" />
+        <path d="M0 41.9h70V47H0zM0 31.7h70v5.1H0zM0 20.4h70v6.1H0zM0 10.2h70v5.1H0zM0 0h70v5.1H0z" class="st1" />
+        <path d="M0 0h26.6v26.6H0z" class="st1" />
+        <path d="M26.6 10.2H16.4V0h-5.2v10.2H0v5.1h11.2v11.3h5.2V15.3h10.2z" class="st2" />
+    </g>
+</svg>

@@ -1,0 +1,289 @@
+<!doctype html>
+
+<!-- Mirrored from prices-saxo.fxbluelabs.com/dom/saxo/marketdepth.html?id=Saxo&syms=EURUSD:EUR%20USD:fx,USDJPY:USD%20JPY:fx,GBPUSD:GBP%20USD:fx,AUDUSD:AUD%20USD:fx,EURGBP:EUR%20GBP:fx,USDTRY:USD%20TRY:fx,USDCAD:USD%20CAD:fx,EURJPY:EUR%20JPY:fx,USDCNH:USD%20CNH:fx,XAUUSD:Gold%20USD:metal&css=//www.home.saxo/-/media/css/dma-styling.css by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 09:33:45 GMT -->
+<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+<html>
+	<title>Saxo Prime DMA</title>
+	<meta name="author" content="FX Blue Labs - www.fxbluelabs.com">
+
+	<link rel="stylesheet" type="text/css" href="MarketDepth.css"/>
+
+	<script type="text/javascript">
+		document.StorageId = "Saxo";
+
+		var arrSymbols = ["AUDCHF","AUDJPY","AUDNZD","AUDUSD","CADCHF","EURAUD","EURCAD","EURCHF","EURGBP","EURJPY","EURNOK","EURNZD","EURPLN","EURSEK","EURTRY","EURUSD","GBPAUD","GBPCAD","GBPCHF","GBPJPY","GBPNZD","GBPUSD","NZDCHF","NZDCAD", "NZDUSD", "USDCAD", "USDCHF","USDCNH","USDHKD","USDJPY","USDPLN","USDRUB","USDTRY","XAGUSD","XAUUSD","US500.I", "GER30.I","USNAS100.I"];
+		var arrTopOfBook = ["EURUSD","USDJPY","AUDUSD","GBPUSD","NZDUSD","XAUUSD","GBPJPY","EURJPY","AUDJPY","EURGBP","EURAUD","EURNZD","US500.I", "GER30.I","USNAS100.I"];
+	</script>
+	<script type="text/javascript" src="MarketDepth22d7c.js?20160210"></script>
+
+	<body onload="OnLoad()">
+		<div id="Container">
+			<div id="sectionTopOfBook">
+			<table cellpadding="3" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td class="HeaderRow Col_Instrument"><select id="cmbSymbol2" onclick="SymbolComboChange(this)" onchange="SymbolComboChange(this)" onkeydown="SymbolComboChange(this)"></select></td>
+					<td class="HeaderRow Col_Bid">BID</td>
+					<td class="HeaderRow Col_Offer">OFFER</td>
+					<td class="HeaderRow Col_Spread">SPREAD</td>
+				</tr>
+
+				<tr id="tr0">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr1">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr2">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr3">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr4">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr5">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr6">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr7">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr8">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr9">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr10">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr11">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr12">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+
+				<tr id="tr13">
+					<td class="StripeRow2 Col_Instrument"></td>
+					<td class="StripeRow2 Col_Bid"></td>
+					<td class="StripeRow2 Col_Offer"></td>
+					<td class="StripeRow2 Col_Spread"></td>
+				</tr>
+
+				<tr id="tr14">
+					<td class="StripeRow Col_Instrument"></td>
+					<td class="StripeRow Col_Bid"></td>
+					<td class="StripeRow Col_Offer"></td>
+					<td class="StripeRow Col_Spread"></td>
+				</tr>
+			</table>
+
+			</div>
+			<div id="sectionMarketDepth" style="display: none">
+			<table cellpadding="3" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td class="HeaderRow" style="width: 25%"><select id="cmbSymbol" onclick="SymbolComboChange(this)" onchange="SymbolComboChange(this)" onkeydown="SymbolComboChange(this)"></select></td>
+					<td class="AR HeaderRow" style="width: 15%">BID</td>
+					<td class="AC HeaderRow" style="width: 20%"><span id="Spread"></span></td>
+					<td class="AL HeaderRow" style="width: 15%">OFFER</td>
+					<td class="AR HeaderRow" style="width: 25%"><input type="checkbox" id="chkVWAP" onclick="SetVWAPMode(this)"/><label for="chkVWAP"> VWAP</label></td>
+				</tr>
+			</table>
+
+			<table cellpadding="3" cellspacing="0" border="0" width="100%" id="MainTable">
+				<tr>
+					<td class="StripeRow AL Vol" id="BidVol1"></td>
+					<td class="StripeRow AC Price" id="BidPrice1"><span class="PA" id="BidPrice1a"></span><span class="PB" id="BidPrice1b"></span><span class="PC" id="BidPrice1c"></span></td>
+					<td class="StripeRow AC Price" id="AskPrice1"><span class="PA" id="AskPrice1a"></span><span class="PB" id="AskPrice1b"></span><span class="PC" id="AskPrice1c"></span></td>
+					<td class="StripeRow AR Vol" id="AskVol1"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow2 AL Vol" id="BidVol2"></td>
+					<td class="StripeRow2 AC Price" id="BidPrice2"><span class="PA" id="BidPrice2a"></span><span class="PB" id="BidPrice2b"></span><span class="PC" id="BidPrice2c"></span></td>
+					<td class="StripeRow2 AC Price" id="AskPrice2"><span class="PA" id="AskPrice2a"></span><span class="PB" id="AskPrice2b"></span><span class="PC" id="AskPrice2c"></span></td>
+					<td class="StripeRow2 AR Vol" id="AskVol2"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow AL Vol" id="BidVol3"></td>
+					<td class="StripeRow AC Price" id="BidPrice3"><span class="PA" id="BidPrice3a"></span><span class="PB" id="BidPrice3b"></span><span class="PC" id="BidPrice3c"></span></td>
+					<td class="StripeRow AC Price" id="AskPrice3"><span class="PA" id="AskPrice3a"></span><span class="PB" id="AskPrice3b"></span><span class="PC" id="AskPrice3c"></span></td>
+					<td class="StripeRow AR Vol" id="AskVol3"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow2 AL Vol" id="BidVol4"></td>
+					<td class="StripeRow2 AC Price" id="BidPrice4"><span class="PA" id="BidPrice4a"></span><span class="PB" id="BidPrice4b"></span><span class="PC" id="BidPrice4c"></span></td>
+					<td class="StripeRow2 AC Price" id="AskPrice4"><span class="PA" id="AskPrice4a"></span><span class="PB" id="AskPrice4b"></span><span class="PC" id="AskPrice4c"></span></td>
+					<td class="StripeRow2 AR Vol" id="AskVol4"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow AL Vol" id="BidVol5"></td>
+					<td class="StripeRow AC Price" id="BidPrice5"><span class="PA" id="BidPrice5a"></span><span class="PB" id="BidPrice5b"></span><span class="PC" id="BidPrice5c"></span></td>
+					<td class="StripeRow AC Price" id="AskPrice5"><span class="PA" id="AskPrice5a"></span><span class="PB" id="AskPrice5b"></span><span class="PC" id="AskPrice5c"></span></td>
+					<td class="StripeRow AR Vol" id="AskVol5"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow2 AL Vol" id="BidVol6"></td>
+					<td class="StripeRow2 AC Price" id="BidPrice6"><span class="PA" id="BidPrice6a"></span><span class="PB" id="BidPrice6b"></span><span class="PC" id="BidPrice6c"></span></td>
+					<td class="StripeRow2 AC Price" id="AskPrice6"><span class="PA" id="AskPrice6a"></span><span class="PB" id="AskPrice6b"></span><span class="PC" id="AskPrice6c"></span></td>
+					<td class="StripeRow2 AR Vol" id="AskVol6"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow AL Vol" id="BidVol7"></td>
+					<td class="StripeRow AC Price" id="BidPrice7"><span class="PA" id="BidPrice7a"></span><span class="PB" id="BidPrice7b"></span><span class="PC" id="BidPrice7c"></span></td>
+					<td class="StripeRow AC Price" id="AskPrice7"><span class="PA" id="AskPrice7a"></span><span class="PB" id="AskPrice7b"></span><span class="PC" id="AskPrice7c"></span></td>
+					<td class="StripeRow AR Vol" id="AskVol7"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow2 AL Vol" id="BidVol8"></td>
+					<td class="StripeRow2 AC Price" id="BidPrice8"><span class="PA" id="BidPrice8a"></span><span class="PB" id="BidPrice8b"></span><span class="PC" id="BidPrice8c"></span></td>
+					<td class="StripeRow2 AC Price" id="AskPrice8"><span class="PA" id="AskPrice8a"></span><span class="PB" id="AskPrice8b"></span><span class="PC" id="AskPrice8c"></span></td>
+					<td class="StripeRow2 AR Vol" id="AskVol8"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow AL Vol" id="BidVol9"></td>
+					<td class="StripeRow AC Price" id="BidPrice9"><span class="PA" id="BidPrice9a"></span><span class="PB" id="BidPrice9b"></span><span class="PC" id="BidPrice9c"></span></td>
+					<td class="StripeRow AC Price" id="AskPrice9"><span class="PA" id="AskPrice9a"></span><span class="PB" id="AskPrice9b"></span><span class="PC" id="AskPrice9c"></span></td>
+					<td class="StripeRow AR Vol" id="AskVol9"></td>
+				</tr>
+
+				<tr>
+					<td class="StripeRow2 AL Vol" id="BidVol10"></td>
+					<td class="StripeRow2 AC Price" id="BidPrice10"><span class="PA" id="BidPrice10a"></span><span class="PB" id="BidPrice10b"></span><span class="PC" id="BidPrice10c"></span></td>
+					<td class="StripeRow2 AC Price" id="AskPrice10"><span class="PA" id="AskPrice10a"></span><span class="PB" id="AskPrice10b"></span><span class="PC" id="AskPrice10c"></span></td>
+					<td class="StripeRow2 AR Vol" id="AskVol10"></td>
+				</tr>
+
+
+				<tr>
+					<td class="AL Vol TotalRow" id="TotalBidVol"></td>
+					<td class="Price AC TotalRow" colspan="2"><span class="lnkTopOfBook" onclick="ShowTopOfBook()">Majors - Top of Book</span></td>
+					<td class="AR Vol TotalRow" id="TotalAskVol"></td>
+				</tr>
+
+				<tr id="ErrorRow" style="display:none">
+					<td id="ErrorMsg" colspan="3" style="font-size: 8pt; width: 150px"></td>
+				</td>
+			</table>
+
+			<table cellpadding="3" cellspacing="0" border="0" width="100%" id="VWAPTable" style="display: none">
+				<tr>
+					<td class="StripeRow AC VWAPPrice">Bid</td>
+					<td class="StripeRow AC VWAPLabel">Amount</td>
+					<td class="StripeRow AC VWAPSpread">Spread</td>
+					<td class="StripeRow AC VWAPPrice">Ask</td>
+				</tr>
+				<tr>
+					<td class="StripeRow AC VWAPPrice" id="vwapBidPrice1"><span class="PA" id="vwapBidPrice1a"></span><span class="PB" id="vwapBidPrice1b"></span><span class="PC" id="vwapBidPrice1c"></span></td>
+					<td class="StripeRow AC VWAPLabel" id="vwapLabel1">ToB</td>
+					<td class="StripeRow AC VWAPSpread" id="vwapSpread1"></td>
+					<td class="StripeRow AC VWAPPrice" id="vwapAskPrice1"><span class="PA" id="vwapAskPrice1a"></span><span class="PB" id="vwapAskPrice1b"></span><span class="PC" id="vwapAskPrice1c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapBidPrice2"><span class="PA" id="vwapBidPrice2a"></span><span class="PB" id="vwapBidPrice2b"></span><span class="PC" id="vwapBidPrice2c"></span></td>
+					<td class="StripeRow2 AC VWAPLabel" id="vwapLabel2"></td>
+					<td class="StripeRow2 AC VWAPSpread" id="vwapSpread2"></td>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapAskPrice2"><span class="PA" id="vwapAskPrice2a"></span><span class="PB" id="vwapAskPrice2b"></span><span class="PC" id="vwapAskPrice2c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow AC VWAPPrice" id="vwapBidPrice3"><span class="PA" id="vwapBidPrice3a"></span><span class="PB" id="vwapBidPrice3b"></span><span class="PC" id="vwapBidPrice3c"></span></td>
+					<td class="StripeRow AC VWAPLabel" id="vwapLabel3"></td>
+					<td class="StripeRow AC VWAPSpread" id="vwapSpread3"></td>
+					<td class="StripeRow AC VWAPPrice" id="vwapAskPrice3"><span class="PA" id="vwapAskPrice3a"></span><span class="PB" id="vwapAskPrice3b"></span><span class="PC" id="vwapAskPrice3c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapBidPrice4"><span class="PA" id="vwapBidPrice4a"></span><span class="PB" id="vwapBidPrice4b"></span><span class="PC" id="vwapBidPrice4c"></span></td>
+					<td class="StripeRow2 AC VWAPLabel" id="vwapLabel4"></td>
+					<td class="StripeRow2 AC VWAPSpread" id="vwapSpread4"></td>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapAskPrice4"><span class="PA" id="vwapAskPrice4a"></span><span class="PB" id="vwapAskPrice4b"></span><span class="PC" id="vwapAskPrice4c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow AC VWAPPrice" id="vwapBidPrice5"><span class="PA" id="vwapBidPrice5a"></span><span class="PB" id="vwapBidPrice5b"></span><span class="PC" id="vwapBidPrice5c"></span></td>
+					<td class="StripeRow AC VWAPLabel" id="vwapLabel5"></td>
+					<td class="StripeRow AC VWAPSpread" id="vwapSpread5"></td>
+					<td class="StripeRow AC VWAPPrice" id="vwapAskPrice5"><span class="PA" id="vwapAskPrice5a"></span><span class="PB" id="vwapAskPrice5b"></span><span class="PC" id="vwapAskPrice5c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapBidPrice6"><span class="PA" id="vwapBidPrice6a"></span><span class="PB" id="vwapBidPrice6b"></span><span class="PC" id="vwapBidPrice6c"></span></td>
+					<td class="StripeRow2 AC VWAPLabel" id="vwapLabel6"></td>
+					<td class="StripeRow2 AC VWAPSpread" id="vwapSpread6"></td>
+					<td class="StripeRow2 AC VWAPPrice" id="vwapAskPrice6"><span class="PA" id="vwapAskPrice6a"></span><span class="PB" id="vwapAskPrice6b"></span><span class="PC" id="vwapAskPrice6c"></span></td>
+				</tr>
+				<tr>
+					<td class="StripeRow AC VWAPPrice" id="vwapBidPrice7"><span class="PA" id="vwapBidPrice7a"></span><span class="PB" id="vwapBidPrice7b"></span><span class="PC" id="vwapBidPrice7c"></span></td>
+					<td class="StripeRow AC VWAPLabel" id="vwapLabel7"></td>
+					<td class="StripeRow AC VWAPSpread" id="vwapSpread7"></td>
+					<td class="StripeRow AC VWAPPrice" id="vwapAskPrice7"><span class="PA" id="vwapAskPrice7a"></span><span class="PB" id="vwapAskPrice7b"></span><span class="PC" id="vwapAskPrice7c"></span></td>
+				</tr>
+				<tr>
+					<td class="TotalRow" colspan="4" style="text-align: center"><span class="lnkTopOfBook" onclick="ShowTopOfBook()">Majors - Top of Book</span></td>
+				</tr>
+			</table>
+			</div>
+		</div>
+	</body>
+
+<!-- Mirrored from prices-saxo.fxbluelabs.com/dom/saxo/marketdepth.html?id=Saxo&syms=EURUSD:EUR%20USD:fx,USDJPY:USD%20JPY:fx,GBPUSD:GBP%20USD:fx,AUDUSD:AUD%20USD:fx,EURGBP:EUR%20GBP:fx,USDTRY:USD%20TRY:fx,USDCAD:USD%20CAD:fx,EURJPY:EUR%20JPY:fx,USDCNH:USD%20CNH:fx,XAUUSD:Gold%20USD:metal&css=//www.home.saxo/-/media/css/dma-styling.css by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2020 09:33:47 GMT -->
+</html>

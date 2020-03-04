@@ -1,0 +1,80 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 63.33 76.02">
+	<defs>
+		<style>
+			.cls-1,.cls-2{
+			    fill:none;
+			}
+			.cls-2{
+			    clip-path:url(#clip-path);
+			}
+			.cls-3{
+			    clip-path:url(#clip-path-2);
+			}
+			.cls-4{
+			    fill:#1b50a3;
+			}
+			.cls-5{
+			    fill:#2e5ba9;
+			}
+			.cls-6{
+			    fill:#0f4aa0;
+			}
+			.cls-10,.cls-11,.cls-12,.cls-13,.cls-7,.cls-8,.cls-9{
+			    font-size:8px;
+			    fill:#fff;
+			}
+			.cls-10,.cls-7,.cls-8,.cls-9{
+			    font-family:OpenSans-Light, Open Sans;
+			}
+			.cls-7{
+			    letter-spacing:0.03em;
+			}
+			.cls-8{
+			    letter-spacing:0.01em;
+			}
+			.cls-9{
+			    letter-spacing:0.02em;
+			}
+			.cls-10{
+			    letter-spacing:0.06em;
+			}
+			.cls-11,.cls-12,.cls-13{
+			    font-family:OpenSans-Semibold, Open Sans;
+			    font-weight:700;
+			}
+			.cls-11{
+			    letter-spacing:0.01em;
+			}
+			.cls-12{
+			    letter-spacing:0.07em;
+			}
+			.cls-13{
+			    letter-spacing:0.02em;
+			}
+
+		</style>
+
+		<clipPath id="clip-path">
+			<polygon class="cls-1" points="337.29 357.95 273.95 357.95 273.95 433.95 337.29 433.95 337.29 357.95 337.29 357.95 337.29 357.95"/>
+		</clipPath>
+		<clipPath id="clip-path-2" transform="translate(-273.95 -357.95)">
+			<rect x="274" y="358" width="63.33" height="76.03"/>
+		</clipPath>
+	</defs>
+
+	<title>Icon_SAXOSELECT_equitiesportfolios</title>
+	<g class="cls-3">
+		<polygon class="cls-4" points="0 76 63.33 76 63.33 0 0 0 0 76 0 76"/>
+	</g>
+	<g class="cls-3">
+		<polygon class="cls-5" points="63.33 76.02 0 76.02 0 30.72 13.96 44.09 63.33 23.27 63.33 76.02 63.33 76.02"/>
+		<polygon class="cls-6" points="63.33 28.72 63.33 0 14.09 43.94 63.33 28.72 63.33 28.72"/>
+	</g>
+	<text class="cls-7" transform="translate(3.56 56.22)">SA</text>
+	<text class="cls-8" transform="translate(13.6 56.22)">XOSE</text>
+	<text class="cls-9" transform="translate(33.01 56.22)">LE</text>
+	<text class="cls-10" transform="translate(41.8 56.22)">CT</text>
+	<text class="cls-11" transform="translate(3.56 64.22)">EQUI</text>
+	<text class="cls-12" transform="translate(23.25 64.22)">TY</text>
+	<text class="cls-13" transform="translate(3.56 72.23)">PORTFOLIOS</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<symbol id="main"  viewBox="0 0 150 150"> 
+<g>
+	<g>
+		<polygon points="111,150 0,150 0,39 21,39 21,45 6,45 6,144 105,144 105,129 111,129 		"/>
+	</g>
+	<g>
+		<path d="M150,111H39V0h111V111z M45,105h99V6H45V105z"/>
+	</g>
+</g>
+</symbol>	
+<use href="#main" />
+</svg> 

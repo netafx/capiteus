@@ -1,0 +1,2 @@
+mySDK.framework filter=lfs diff=lfs merge=lfs -text
+**/mySDK filter=lfs diff=lfs merge=lfs -text

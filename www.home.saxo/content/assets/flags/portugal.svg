@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{mask:url(#portugal-flag-mask);}.cls-3{fill:#44d155;}.cls-4{fill:#fe3f55;}.cls-5{fill:#ffc400;}.cls-6{fill:#3058d0;}</style>
+        <mask id="portugal-flag-mask" width="70" height="47.35" x="0" y="-.18" maskUnits="userSpaceOnUse">
+            <path d="M0-.18h70v47.35H0z" class="cls-1" />
+        </mask>
+    </defs>
+    <g class="cls-2">
+        <g>
+            <path d="M0 0h22.65v47H0z" class="cls-3" />
+            <path d="M22.65 0H70v47H22.65z" class="cls-4" />
+            <path d="M22.65 9.09A14.41 14.41 0 1 0 37.06 23.5 14.41 14.41 0 0 0 22.65 9.09zm0 26.76A12.35 12.35 0 1 1 35 23.5a12.35 12.35 0 0 1-12.35 12.35z" class="cls-5" />
+            <path d="M22.65 33.35a7.9 7.9 0 0 1-7.9-7.9v-9.74h15.79v9.74a7.9 7.9 0 0 1-7.89 7.9z" class="cls-4" />
+            <path d="M30 16.21v9.24a7.39 7.39 0 1 1-14.79 0v-9.24H30m1-1H14.25v10.24a8.39 8.39 0 1 0 16.79 0V15.21z" class="cls-1" />
+            <path d="M27 19.59h-8.75v5.49a4.39 4.39 0 1 0 8.79 0v-5.49z" class="cls-1" />
+            <path d="M20.83 23.67h-1.52v1a.76.76 0 1 0 1.53 0v-1zM23.41 23.67h-1.53v1a.76.76 0 1 0 1.53 0v-1zM23.41 21.39h-1.53v1a.76.76 0 1 0 1.53 0v-1zM23.41 26h-1.53v1a.76.76 0 1 0 1.53 0v-1zM26 23.67h-1.54v1a.76.76 0 1 0 1.53 0v-1z" class="cls-6" />
+            <circle cx="16.88" cy="17.99" r=".63" class="cls-5" />
+            <circle cx="22.65" cy="17.99" r=".63" class="cls-5" />
+            <circle cx="28.32" cy="17.99" r=".63" class="cls-5" />
+            <circle cx="16.88" cy="23.1" r=".63" class="cls-5" />
+            <circle cx="28.32" cy="23.1" r=".63" class="cls-5" />
+            <circle cx="17.51" cy="27.84" r=".63" class="cls-5" />
+            <circle cx="27.69" cy="27.84" r=".63" class="cls-5" />
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+	<g class="fill-primary" fill="#FFFFFF">
+		<path d="M0,45.9h39.8V6.1H0V45.9z M6.1,12.2h27.6v27.6H6.1V12.2z"/>
+		<path d="M0,94.9h39.8V55.1H0V94.9z M6.1,61.2h27.6v27.6H6.1V61.2z"/>
+		<path d="M0,143.9h39.8v-39.8H0V143.9z M6.1,110.2h27.6v27.6H6.1V110.2z"/>
+		<rect x="52" y="122.4" width="98" height="6.1"/>
+		<rect x="52" y="73.5" width="98" height="6.1"/>
+		<rect x="52" y="24.5" width="98" height="6.1"/>
+	</g>
+</svg>

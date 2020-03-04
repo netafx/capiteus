@@ -1,0 +1,1 @@
+.v2 .v2-overlay{display:block}.v2 .v2-overlay:after{content:""}.v2 .v2-overlay-element,.v2 .v2-overlay:after{position:absolute;top:0;left:0;opacity:.7;height:100%;width:100%}.v2 .v2-overlay-light:after{opacity:.3}.v2 .v2-overlay-bg--black:after{background-color:#000}

@@ -1,0 +1,8 @@
+<svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<symbol id="main"  viewBox="0 0 150 150"> 
+<path d="M150.2,75.7L73,29.6v42.1L0,28.3v92l73-43.4v44.8L150.2,75.7z M6,109.7V39l59.2,35.3L6,109.7z M79,40.3l59.2,35.3L79,111
+	V40.3z"/>
+</symbol>	
+<use href="#main" />
+</svg> 

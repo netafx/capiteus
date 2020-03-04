@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+	<g class="fill-primary" fill="#FFFFFF">
+		<g>
+			<path d="M20,114v30H6v-30H20 M26,108H0v42h26V108L26,108z"/>
+		</g>
+		<g>
+			<path d="M61.3,81v63h-14V81H61.3 M67.3,75h-26v75h26V75L67.3,75z"/>
+		</g>
+		<g>
+			<path d="M102.7,52v92h-14V52H102.7 M108.7,46h-26v104h26V46L108.7,46z"/>
+		</g>
+		<g>
+			<path d="M144,6v138h-14V6H144 M150,0h-26v150h26V0L150,0z"/>
+		</g>
+	</g>
+</svg>

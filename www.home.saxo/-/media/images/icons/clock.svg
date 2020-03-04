@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<symbol id="main" viewBox="0 0 150 150">
+<g>
+	<path d="M138.5,102.6c-10.6,24.3-34.9,41.3-63.1,41.3c-38,0-68.8-30.8-68.8-68.8c0-38,30.6-68.8,68.6-68.8c1,0,1.8,0,2.8,0.1V0.1
+		C77,0,76.2,0,75.2,0C33.8,0,0.3,33.6,0.3,75c0,41.4,33.6,75,75.1,75c30.6,0,57-18.4,68.6-44.7L138.5,102.6z"/>
+	<polygon points="78,72.9 78,18 72,18 72,76.6 125.7,103.1 128.2,97.7 	"/>
+	<circle cx="140.5" cy="43.9" r="3.1"/>
+	<circle cx="146.5" cy="64.9" r="3.1"/>
+	<circle cx="145.5" cy="90.9" r="3.1"/>
+	<circle cx="128.5" cy="25.9" r="3.1"/>
+	<circle cx="91.5" cy="4.9" r="3.1"/>
+	<circle cx="111.5" cy="12.9" r="3.1"/>
+</g>
+	</symbol>	
+<use href="#main" />
+</svg>

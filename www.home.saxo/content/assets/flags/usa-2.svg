@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <style>.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FE3F55;} .st1{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;} .st2{fill:#FAFFFF;} .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FAFFFF;} .st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;} .st5{fill-rule:evenodd;clip-rule:evenodd;fill:#3058D0;} .st6{display:none;fill:#FFFFFF;} .st7{fill:#FFFFFF;} .st8{opacity:0.2;} .st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFDC3D;} .st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FFCB29;} .st11{fill-rule:evenodd;clip-rule:evenodd;fill:#323D4E;} .st12{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE74C;} .st13{fill-rule:evenodd;clip-rule:evenodd;fill:#40BB56;} .st14{display:none;fill:#FE3F55;} .st15{fill:#FE3F55;} .st16{fill:#3058D0;} .st17{fill:#1679DB;} .st18{fill:#FFC400;} .st19{display:none;} .st20{display:inline;fill:#FFFFFF;} .st21{display:none;fill:#FFCB29;} .st22{fill:#FFCB29;} .st23{fill-rule:evenodd;clip-rule:evenodd;fill:#44D155;} .st24{filter:url(#Adobe_OpacityMaskFilter);} .st25{mask:url(#cypress_1_);} .st26{fill:#40BB56;} .st27{fill:#4286F5;} .st28{clip-path:url(#usa-flag-gradient);} .st29{fill:url(#SVGID_3_);} .st30{fill:url(#SVGID_4_);} .st31{fill:url(#SVGID_5_);} .st32{fill-rule:evenodd;clip-rule:evenodd;fill:#FF6F28;} .st33{fill:#FFDC3D;} .st34{fill:url(#SVGID_6_);}</style>
+    <g>
+        <linearGradient id="usa-flag-gradient" x1="35" x2="35" y1="47" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#F0F0F0" />
+            <stop offset="1" stop-color="#FFF" />
+        </linearGradient>
+        <path fill="url(#usa-flag-gradient)" d="M0 0h70v47H0z" />
+        <path d="M0 0h28.2v21.9H0z" class="st16" />
+        <path d="M28.2 0H70v3.1H28.2zM28.2 6.3H70v3.1H28.2zM28.2 12.5H70v3.1H28.2zM28.2 18.8H70v3.1H28.2zM0 25.1h70v3.1H0zM0 31.3h70v3.1H0zM0 37.6h70v3.1H0zM0 43.9h70V47H0z" class="st15" />
+        <g>
+            <path d="M4.5 3.1l.4 1 1 .1-.7.7.2 1-.9-.4-.9.4.1-1-.7-.7 1-.1zM10.6 3.1l.4 1 1.1.1-.8.7.2 1-.9-.4-.9.4.1-1-.7-.7 1-.1zM16.7 3.1l.5 1 1 .1-.8.7.2 1-.9-.4-.9.4.2-1-.8-.7 1-.1zM22.8 3.1l.5 1 1 .1-.7.7.1 1-.9-.4-.9.4.2-1-.8-.7 1.1-.1zM4.5 9.4l.4.9 1 .2-.7.7.2 1-.9-.5-.9.5.1-1-.7-.7 1-.2zM10.6 9.4l.4.9 1.1.2-.8.7.2 1-.9-.5-.9.5.1-1-.7-.7 1-.2zM16.7 9.4l.5.9 1 .2-.8.7.2 1-.9-.5-.9.5.2-1-.8-.7 1-.2zM22.8 9.4l.5.9 1 .2-.7.7.1 1-.9-.5-.9.5.2-1-.8-.7 1.1-.2zM4.5 15.7l.4.9 1 .2-.7.7.2 1-.9-.5-.9.5.1-1-.7-.7 1-.2zM10.6 15.7l.4.9 1.1.2-.8.7.2 1-.9-.5-.9.5.1-1-.7-.7 1-.2zM16.7 15.7l.5.9 1 .2-.8.7.2 1-.9-.5-.9.5.2-1-.8-.7 1-.2zM22.8 15.7l.5.9 1 .2-.7.7.1 1-.9-.5-.9.5.2-1-.8-.7 1.1-.2zM7.5 6.3l.5.9 1 .1-.7.8.1 1-.9-.5-.9.5.2-1-.7-.8 1-.1zM13.6 6.3l.5.9 1 .1-.7.8.2 1-1-.5-.9.5.2-1-.7-.8 1-.1zM19.8 6.3l.4.9 1 .1-.7.8.2 1-.9-.5-.9.5.1-1-.7-.8 1-.1zM7.5 12.6l.5.9 1 .1-.7.7.1 1.1-.9-.5-.9.5.2-1.1-.7-.7 1-.1zM13.6 12.6l.5.9 1 .1-.7.7.2 1.1-1-.5-.9.5.2-1.1-.7-.7 1-.1zM19.8 12.6l.4.9 1 .1-.7.7.2 1.1-.9-.5-.9.5.1-1.1-.7-.7 1-.1z" class="st7" />
+        </g>
+    </g>
+</svg>

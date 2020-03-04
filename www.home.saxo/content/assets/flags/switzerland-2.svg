@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <style>.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FE3F55;} .st1{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;} .st2{fill:#FAFFFF;}</style>
+    <g>
+        <path d="M0 0h70v47H0V0z" class="st0" />
+        <path d="M45 20h-6v-6c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v6h-6c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h6v6c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-6h6c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2z" class="st1" />
+        <path d="M47 20h-7v-8h-9v8h-8v9h8v7h9v-7h7z" class="st2" />
+    </g>
+</svg>

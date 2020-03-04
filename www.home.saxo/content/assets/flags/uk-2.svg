@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 47">
+    <style>.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#3058D0;} .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;} .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FE3F55;}</style>
+    <g>
+        <path d="M0 0v47h70V0H0z" class="st0" />
+        <path d="M70 0h-2.7L35.1 20.8 2.8 0H0v4.1l30.5 19.6L0 43.4V47h3.7l31.4-20.3L66.6 47H70v-3.7L39.7 23.8 70 4.2z" class="st1" />
+        <path d="M70 3.2V0h-1.1l-33 21.3-.8.5-.8-.5L1.3 0H0v3.1l31.3 20.1.7.6-.7.4L0 44.4V47h2.1l32.3-20.8.7-.5.8.5L68.2 47H70v-2.8l-31.1-20-.7-.4.7-.5z" class="st2" />
+        <path d="M70 18H41V0H29v18H0v12h29v17h12V30h29z" class="st1" />
+        <path d="M70 20H39V0h-8v20H0v8h31v19h8V28h31z" class="st2" />
+    </g>
+</svg>

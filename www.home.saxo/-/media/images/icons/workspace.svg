@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<symbol id="main"  viewBox="0 0 150 150">
+		<g>
+			<path d="M0,15v120h150V15H0z M84,21v54H6V21H84z M6,81h78v48H6V81z M144,129H90V21h54V129z"/>
+		</g>
+	</symbol>
+	<use href="#main" />
+</svg>
